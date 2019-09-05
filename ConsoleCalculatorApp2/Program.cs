@@ -52,7 +52,7 @@ namespace ConsoleCalculatorApp2
         static void display(char ops, double result, double n1, double n2)
         {
             if (ops == 'd')
-                Console.WriteLine("Percentage of " + n1 + "/" + n2 + " * 100 = " + result);
+                Console.WriteLine("Percentage (%) of " + n1 + "/" + n2 + " * 100 = " + result);
             else
                 Console.WriteLine(n1 + " " + ops + " " + n2 + " = " + result);
         }
